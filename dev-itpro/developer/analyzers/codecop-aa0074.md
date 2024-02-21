@@ -34,7 +34,7 @@ TextConst and Label variable names should have a suffix (an approved three-lette
 
 ```AL
 // TextConst suffixed with Tok for Token
-MethodGetTok : TextConst ENU = 'GET';
+GetTok: Label 'GET', Locked = true;
 ```
 
 ## See Also  
